@@ -1,0 +1,8 @@
+@inproceedings{ghosh2016thump,
+  title={Thump: Semantic analysis on trajectory traces to explore human movement pattern},
+  author={Ghosh, Shreya and Ghosh, Soumya K},
+  booktitle={Proceedings of the 25th International Conference on World Wide Web, Poster Paper},
+  pages={35--36},
+  year={2016},
+  organization={International World Wide Web Conferences Steering Committee}
+}
