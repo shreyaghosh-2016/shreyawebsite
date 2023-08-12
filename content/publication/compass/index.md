@@ -1,18 +1,19 @@
 ---
-title: 'Clock Against Chaos: Dynamic Assessment and Temporal Intervention in Reducing Misinformation Propagation'
+title: 'Analysis of Elephant Movement in Sub-Saharan Africa: Ecological, Climatic, and Conservation Perspectives'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Matthew Hines 
+  - Gregory Glatzer
   - admin
   - Prasenjit Mitra
-  - Preslav Nakov
-
+  
 # Author notes (optional)
 
 
-date: '2024-06-01T00:00:00Z'
+date: '2023-06-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -25,14 +26,14 @@ publishDate: '2023-05-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *18th International AAAI Conference on Web and Social Media*
-publication_short: In *AAAI ICWSM 2024*
+publication: In *ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS ’23)*
+publication_short: In *COMPASS 2023*
 
-abstract: As social networks become the primary sources of information, the rise of misinformation poses a significant threat to the information ecosystem. 
+abstract:  
 # Summary. An optional shortened abstract.
-summary: Social networks' role as primary information sources has led to a rise in misinformation, threatening the information ecosystem. This study introduces a system that assigns misinformation scores to tweets in real-time using a mix of Temporal Graph Network (TGN) and Recurrent Neural Networks (RNNs) to track how misinformation spreads. This approach uses active learning, a dual model system, a temporal embargo based on belief scores, and a retraining method, showing significant accuracy in identifying and reducing misinformation propagation across five datasets.
+summary: This study explores the complex relationship between elephants and their environment, emphasizing its significance for ecology and conservation strategies. The research focuses on understanding elephant movement in Sub-Saharan Africa, considering ecological factors like seasons and rainfall patterns. Despite the challenges, the study offers valuable insights into elephant migratory behavior within the dynamic African landscape. By predicting how ecological determinants impact elephant migration, the research aids in informed conservation strategies, especially considering climate change effects on the environment. The findings contribute to minimizing human-elephant conflict, managing land use, and improving anti-poaching efforts for sustainable coexistence in the region.
 
-tags: []
+tags: [Wildlife informatics]
 
 # Display this page in the Featured widget?
 featured: true
@@ -42,8 +43,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://drive.google.com/file/d/1B3ObfDbR1Jjmhj1U7TdgDzV4OFxsHPKS/view'
-url_code: 'https://drive.google.com/drive/u/3/folders/1Qh4IP-8KYrKW6AJQuIvlwHoyu4U2ON2d'
+url_pdf: 'https://drive.google.com/file/d/1OYN3BvuU7-RIqQzNYZw_LtjCmWeyRYpf/view'
+url_code: 'https://github.com/shreyaghosh-2016/Elephant-movement'
 
 
 # Featured image
@@ -59,7 +60,7 @@ url_code: 'https://drive.google.com/drive/u/3/folders/1Qh4IP-8KYrKW6AJQuIvlwHoyu
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - misinformation
+  - wildlife
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
