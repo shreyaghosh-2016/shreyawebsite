@@ -12,8 +12,6 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-    text: 
-      [I'm an external link](https://www.google.com)
   - block: collection
     id: featured
     content:
