@@ -239,11 +239,11 @@ sections:
         - name: Data mining
           #description: 100%
           icon: magnifying-glass-chart
-          icon_pack: fa
+          icon_pack: fas
         - name: Python, R, C, PostGreSQL, QGIS, TensorFlow
           #description: 10%
-          icon: fa-python
-          icon_pack: fa
+          icon: list-check
+          icon_pack: fas
   
   - block: contact
     id: contact
