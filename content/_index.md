@@ -15,13 +15,18 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Featured Publications 
+      text: |-
+        {{% callout note %}}
+        **See Full Publication** [here](https://shreyaghosh-2016.github.io/publications) 
+        [**Google Scholar Link**](https://scholar.google.com/citations?user=a5OKo7wAAAAJ&hl=en)
+        {{% /callout %}}
       filters:
         folders:
           - publication
         featured_only: true
     design:
-      columns: '2'
+      columns: '1'
       view: card
   - block: collection
     content:
@@ -37,23 +42,6 @@ sections:
     design:
       columns: '2'
       view: citation
-  
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -131,7 +119,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Recent News
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -182,6 +170,13 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  - block: markdown
+    id: section-1
+    content:
+      title: Section 1
+      subtitle: A subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+
   
   
   - block: collection
@@ -194,56 +189,69 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
+  
+  - block: features
     content:
-      title: Popular Topics
-    design:
-      columns: '2'
+      title: Skills
+      items:
+        - name: Mobility analysis
+          #description: 100%
+          icon: car
+          icon_pack: fas
+        - name: Natural lanuage processing
+          #description: 100%
+          icon: list-check
+          icon_pack: fas
+        - name: Social media data analytics
+          #description: 10%
+          icon: magnifying-glass-chart
+          icon_pack: fas
+        - name: Cloud computing
+          #description: 100%
+          icon: cloud
+          icon_pack: fas
+        - name: Data mining
+          #description: 100%
+          icon: magnifying-glass-chart
+          icon_pack: fa
+        - name: Python, R, C, PostGreSQL, QGIS, TensorFlow
+          #description: 10%
+          icon: fa-python
+          icon_pack: fa
+  
   - block: contact
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      #subtitle:
+      #text: |-
+      #Contact (add or remove contact options as necessary)
+      email: shreya.cst@gmail.com
+      phone: 814-769-3989
+      #appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: 413A Eric J. Barron Innovation Hub
+        city: State College
+        region: PA
+        postcode: '16801'
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
+          link: 'https://twitter.com/cstghosh'
+        
         - icon: video
           icon_pack: fas
           name: Zoom Me
-          link: 'https://zoom.com'
+          link: 'https://psu.zoom.us/my/shreya2022'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      
     design:
       columns: '2'
 ---

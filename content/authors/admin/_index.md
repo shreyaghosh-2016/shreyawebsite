@@ -80,7 +80,6 @@ email: 'shreya.cst@gmail.com'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
 Shreya Ghosh (শ্রেয়া ঘোষ) is a postdoctoral scholar at Pennsylvania State University,
 USA since Dec 2021. Her research interests are in the areas of misinformation
 detection on social media using linguistic cues and network structure, and spatio-

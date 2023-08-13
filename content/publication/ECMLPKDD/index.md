@@ -1,9 +1,11 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Catching Lies in the Act: A Framework for Misinformation Detection on Social Media"
+title: "Lumos in the Night Sky: AI-enabled Visual Tool for Exploring Night-Time Light Patterns"
 authors: 
+- Jakob Hederich
 - admin
+- Zeyu He
 - Prasenjit Mitra
 date: 2023-08-11T23:24:44-04:00
 doi: ""
@@ -18,10 +20,10 @@ publishDate: 2023-08-11T23:24:44-04:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "34th ACM Conference on Hypertext and Social Media (ACM Hypertext 2023)"
-publication_short: "ACM Hypertext"
+publication: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), September 18-22, 2023, Turin, Italy."
+publication_short: "ECML PKDD 2023 (Demo)"
 
-abstract: "Our model incorporates a causal user attribute inference model to label users as potential misinformation propagators or believers. Designed for early detection, the model includes two auxiliary tasks: forecasting the scope of misinformation dissemination and clustering similar nodes (users) based on their attributes outperforming the current state-of-the-art benchmarks."
+abstract: "We introduce NightPulse, an interactive tool for Night-time light (NTL) data visualization and analytics, which enables researchers and stakeholders to explore and analyze NTL data with a user-friendly platform. Powered by efficient system architecture, NightPulse supports image segmentation, clustering, and change pattern detection to identify urban development and sprawl patterns. It captures temporal trends of NTL and semantics of cities, answering questions about demographic factors, city boundaries, and unusual differences"
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -38,7 +40,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://drive.google.com/file/d/1AHExkMQ0rde0dpog3GHy7avNmYV4QU9x/view
+url_pdf: https://arxiv.org/pdf/2306.03195.pdf
 url_code:
 url_dataset:
 url_poster:
@@ -60,7 +62,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [Night time light]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

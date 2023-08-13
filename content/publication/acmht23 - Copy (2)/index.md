@@ -1,10 +1,12 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Catching Lies in the Act: A Framework for Misinformation Detection on Social Media"
+title: "MCG: Mobility-aware Computation Offloading in Edge using Weighted Majority Game"
 authors: 
+- Anwesha Mukherjee
 - admin
-- Prasenjit Mitra
+- Debashis De
+- Soumya K Ghosh
 date: 2023-08-11T23:24:44-04:00
 doi: ""
 
@@ -15,13 +17,13 @@ publishDate: 2023-08-11T23:24:44-04:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "34th ACM Conference on Hypertext and Social Media (ACM Hypertext 2023)"
-publication_short: "ACM Hypertext"
+publication: "IEEE Transactions on Network Science and Engineering"
+publication_short: ""
 
-abstract: "Our model incorporates a causal user attribute inference model to label users as potential misinformation propagators or believers. Designed for early detection, the model includes two auxiliary tasks: forecasting the scope of misinformation dissemination and clustering similar nodes (users) based on their attributes outperforming the current state-of-the-art benchmarks."
+abstract: "The paper introduces an end-to-end mobility-aware computation offloading framework, called MCG, to address challenges in selecting suitable edge/fog devices for computation offloading from mobile devices. MCG incorporates a mobility prediction module to identify user mobility patterns, selects devices based on mobility and location, prioritizes a high-resource majority device, and offloads computations. Experimental results show MCG's superiority in accuracy and efficiency over existing mobility prediction methods, significantly reducing latency and power consumption during offloading compared to current strategies."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -38,7 +40,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://drive.google.com/file/d/1AHExkMQ0rde0dpog3GHy7avNmYV4QU9x/view
+url_pdf: https://ieeexplore.ieee.org/document/9855396
 url_code:
 url_dataset:
 url_poster:

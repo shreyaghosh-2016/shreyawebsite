@@ -1,14 +1,15 @@
 ---
-title: IJCAI Demo presentation
+title: IJCAI Demo presentation (NightVIEW)
 
 event: IJCAI Demo presentation
-event_url: https://example.org
+event_url: https://ijcai-23.org/paper-schedule/
 
 location: Macao, SAR
 
 
 summary: Understanding the Night-Sky? Developing AI-Enabled System for Exploring Night-Light Usage.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+abstract: We present a demonstration of nighttime light pattern (NTL) analysis system. Our tool named NightVIEW is powered by an efficient system architecture to easily export and analyse huge volume of spatial data (NTL), image segmentation and clustering algorithms to find unusual NTL patterns and identify hotspots of excess night light usage as well as finding semantics of cities.
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -31,16 +32,16 @@ featured: false
 
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+url_pdf1: 'https://ntl.l3s.uni-hannover.de/'
+url_slides: 'https://drive.google.com/file/d/17jqyoj69Iiyc6yc8oZ_c4BDBDP7ZYl5G/view?usp=sharing'
+url_video: 'https://drive.google.com/file/d/1ZlZABbIYIEfs_43dprwAKbzlida_-I8y/view?usp=sharing'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -52,13 +53,7 @@ projects:
 ---
 
 {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+**See our demo** [here](https://ntl.l3s.uni-hannover.de/)
 {{% /callout %}}
 
-Slides can be added in a few ways:
 
-- **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
