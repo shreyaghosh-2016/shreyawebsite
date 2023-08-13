@@ -34,7 +34,7 @@ abstract:
 # Summary. An optional shortened abstract.
 summary: We present a demonstration of nighttime light pattern (NTL) analysis system. Our tool named NightVIEW is powered by an efficient system architecture to easily export and analyse huge volume of spatial data (NTL), image segmentation and clustering algorithms to find unusual NTL patterns and identify hotspots of excess night light usage as well as finding semantics of cities.
 
-tags: []
+tags: 'Night time light'
 
 # Display this page in the Featured widget?
 featured: true
@@ -61,7 +61,8 @@ url_code: 'https://gitlab.com/Hanburger/NightVIEW'
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - NightLight data 
+  - Night time light
+  - Night time light  
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
